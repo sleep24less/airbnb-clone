@@ -55,3 +55,10 @@ body {
     max-width: 600px;
     margin-bottom: 60px;
 }
+
+.card_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}

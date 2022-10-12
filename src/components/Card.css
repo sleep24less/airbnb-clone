@@ -1,7 +1,15 @@
 .card {
     display: flex;
     flex-direction: column;
+    width: 176px;
     gap: 8px;
+    font-size: 0.76rem;
+}
+
+.card_img {
+    height: 235px;
+    width: auto;
+    border-radius: 9px;
 }
 
 .status {
@@ -9,13 +17,13 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 45px;
+    top: 35px;
     left: 7px;
     font-family: inherit;
     font-weight: bold;
-    font-size: 0.85rem;
-    height: 30px;
-    width: 80px;
+    font-size: 0.65rem;
+    height: 20px;
+    width: 61px;
     background-color: var(--color-bg);
     border-radius: 5px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.466);
