@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 45px;
+    left: 7px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 0.85rem;
+    height: 30px;
+    width: 80px;
+    background-color: var(--color-bg);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.466);
+}
+
+.rating_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating_container img {
+    position: relative;
+    bottom: 1px;
+    width: auto;
+    height: 1rem;
+}
+
+.rating_container .rating_num {
+    color: gray;
+}
