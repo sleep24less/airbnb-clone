@@ -11,22 +11,31 @@ function App() {
       <Hero />
       <div className='card_section'>
         <Card
-          img='../public/card-img.png'
+          img='card-img.png'
           exp='Life lessons with Katie Zaferes'
-          price='From $136'
+          price='136'
           status='SOLD OUT'
+          rating={5.0}
+          count={6}
+          country='USA'
         />
         <Card
-          img='../public/card-img2.png'
+          img='card-img2.png'
           exp='Learn wedding photography'
-          price='From $125'
+          price='125'
           status='ONLINE'
+          rating={4.5}
+          count={10}
+          country='Yemen'
         />
         <Card
-          img='../public/card-img3.png'
+          img='card-img3.png'
           exp='Group mountain biking'
-          price='From $50'
+          price='50'
           status='ONLINE'
+          rating={3.6}
+          count={3}
+          country='Italy'
         />
       </div>
     </div>
